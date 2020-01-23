@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <ul>
+        <li>item 1</li>
+    </ul>
+    <ol>
+        <li>item 2</li>
+    </ol>
+    <form method="POST" id=form-1 action="#">
+        <label for="first-name">voornaam</label>
+        <input name="first-name" id = "first-name"type="text">
+        <fieldset>
+            <Legend>sectie 1</Legend>
+        <label>
+            email:
+            <input type="email">
+        </label>
+        <label>
+            huisdier:
+            <input type="checkbox" value="has-pet">
+        </label>
+        <label>
+            woman:
+            <input type="radio" value="woman">
+        </label>
+        <label>
+            man:
+            <input type="radio" value="man">
+        </label>
+    </fieldset>
+        <label>
+            <input type="date" name="birth" value="2020-01-23">
+        </label>
+        <label>
+            kinderen:
+            <select name="children">
+                <option value="one">1</option>
+                <option value="four">4</option>
+                <option value="eight">8</option>
+            </select>
+            <button type="button">sowieso</button>
+    </form>
+    <button form="form-1" type="submit">submit</button>
+
+
+</body>
+</html>
